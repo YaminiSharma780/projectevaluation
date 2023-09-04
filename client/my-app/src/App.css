@@ -1,0 +1,97 @@
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar  */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
+
+.dialogue {
+  width: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+  position: fixed;
+  left: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.dialogue p {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.dialogue2 {
+  width: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+  position: fixed;
+  left: 85%;
+  top: 23%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.dialogue2 img {
+  position: fixed;
+  left: 85%;
+  top: 31.2%;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  border: 1px solid black;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.dialogue2 p {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.carousel-inner {
+  width: 1000px;
+  height: 500px;
+}
+
+.productImg {
+  height: 400px;
+  width: 500px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.productImg img {
+  height: 400px;
+  width: 500px;
+  transition: all 0.5s linear 0s;
+}
+
+.productImg img:hover {
+  transform: scale(1.5);
+}
+
+.tableDiv {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th,
+td {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.footer{
+  /* background-color: rgb(235, 231, 231); */
+  background-color: #f8f9faff;
+  color: black;
+  margin-top: 20px;
+}
